@@ -4,12 +4,11 @@ import './index.css';
 //import Card from './Card';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
-import CardList from './CardList';
-import{ monsters }from './monsters.js'
+import App from './App';
 
 ReactDOM.render(
-	<CardList monsters={monsters} />,
-
+	
+		<App/>,
 
 	document.getElementById('root'));
 
